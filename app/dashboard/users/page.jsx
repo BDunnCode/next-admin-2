@@ -9,7 +9,7 @@ const UserPage = () => {
     <div className={styles.container}>
       <div className={styles.top}>
         <Search placeholder="Search for a user..."  />
-        <Link href="">
+        <Link href="/dashboard/users/add">
           <button className={styles.addButton}>Add New</button>
         </Link>
       </div>
@@ -21,7 +21,7 @@ const UserPage = () => {
             <td>Created At</td>
             <td>Role</td>
             <td>Status</td>
-            <td>Active</td>
+            <td>Action</td>
           </tr>
         </thead>
         <tbody>
