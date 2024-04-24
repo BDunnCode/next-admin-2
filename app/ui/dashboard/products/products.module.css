@@ -52,9 +52,11 @@ color: var(--text);
 }
 
 .view {
-background-color: teal;
+  background-color: teal;
+  cursor: pointer;
 }
 
 .delete {
-background-color: crimson;
+  background-color: crimson;
+  cursor: pointer;
 }
